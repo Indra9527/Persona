@@ -1,5 +1,5 @@
 body{
-    background-color: #80D4FF
+    background-color: #80D4FF;
 }
 
 p {
@@ -16,12 +16,11 @@ h1, h2{
 }
 
 .text {
-    margin: 2%;
-    width: 40%;
+    margin-left: 5%;
+    width: 750px;
     height: 1000px;
     border: 5px solid green;
     padding: 30px;
-    float: left;
     -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
     box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
     background-color: antiquewhite;
@@ -30,12 +29,11 @@ h1, h2{
 }
 
 .text2 {
-    margin: 2%;
-    width: 40%;
+    margin-left: 5%;
+    width: 750px;
     height: 1200px;
     border: 5px solid green;
     padding: 30px;
-    float: left;
     -webkit-box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77); 
     box-shadow: 5px 5px 25px 14px rgba(0,0,0,0.77);
     background-color: antiquewhite;
@@ -45,6 +43,7 @@ h1, h2{
 
 .hw{
     width:90%;
+    border: 2px solid cornflowerblue; 
 }
 
 .icon{
@@ -58,5 +57,8 @@ h1, h2{
 }
 
 #main {
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: auto;
 }
